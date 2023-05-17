@@ -38,7 +38,7 @@ Flight::map('jwt', function ($user) {
  * @OA\Info(title="CEN 308 App API", version="0.2")
  * @OA\OpenApi(
  *    @OA\Server(url="http://localhost/cen308-app/api/", description="Development Environment" ),
- *    @OA\Server(url="http://157.230.119.60/cen308-app/api/", description="Production Environment" )
+ *    @OA\Server(url="http://cen308-app-apache-env.eba-rhjzk2yj.eu-central-1.elasticbeanstalk.com/api/", description="Production Environment" )
  * ),
  * @OA\SecurityScheme(securityScheme="ApiKeyAuth", type="apiKey", in="header", name="Authentication" )
  */
