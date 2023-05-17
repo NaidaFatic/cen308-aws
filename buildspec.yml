@@ -3,7 +3,7 @@ phases:
   build:
     commands:
       - echo Installing source NPM dependencies...
-      - composer install
+      - composer install --ignore-platform-reqs
   post_build:
     commands:
       - echo Build completed on `date`
