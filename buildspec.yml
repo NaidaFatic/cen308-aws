@@ -2,7 +2,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo Installing source NPM dependencies...
+      - echo Installing source PHP dependencies...
       - composer install --ignore-platform-reqs
   post_build:
     commands:
